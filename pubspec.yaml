@@ -61,12 +61,12 @@ flutter_icons:
   image_path: "assets/images/logo_kashef.png"
   adaptive_icon_background: "#0D47A1"
   adaptive_icon_foreground: "assets/images/logo_kashef.png"
-
 flutter_native_splash:
   color: "#0D2E8C"
   image: "assets/images/transparent.png"
   android_12:
     image: "assets/images/transparent.png"
     icon_background_color: "#0D2E8C"
+
 
 
