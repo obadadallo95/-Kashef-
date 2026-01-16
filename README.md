@@ -179,6 +179,32 @@ Contributions are welcome! If you want to improve the Syrian Slang Dataset, plea
 
 ---
 
+---
+
+## ❤️ Support Kashef | ادعم كاشف
+
+**[English]**
+This platform is **Free & Open Source**. Your support helps keep the servers running and the AI models updated.
+If you find this tool useful, consider donating to the ongoing development:
+
+| Currency | Address |
+| :--- | :--- |
+| **Bitcoin (BTC)** | `bc1p42akn5et2kuexnlmtyhhkv2rgngp85rzydww0zh2w9cc3rj86xhqfemhhe` |
+| **Ethereum (ETH)** | `0xb15af72fd8e0dd098158b0251d43f9a272b6505d` |
+| **Solana (SOL)** | `ANE9Sh9Y2ExSofj9wsR7vkxKKNuawSH9KtpztxEFXs3K` |
+
+**[العربية]**
+هذه المنصة **مجانية ومفتوحة المصدر**. دعمك يساعد في استمرار عمل السيرفرات وتحديث نماذج الذكاء الاصطناعي.
+إذا وجدت هذه الأداة مفيدة، يرجى التفكير في التبرع لاستمرار التطوير:
+
+| العملة | العنوان |
+| :--- | :--- |
+| **Bitcoin (BTC)** | `bc1p42akn5et2kuexnlmtyhhkv2rgngp85rzydww0zh2w9cc3rj86xhqfemhhe` |
+| **Ethereum (ETH)** | `0xb15af72fd8e0dd098158b0251d43f9a272b6505d` |
+| **Solana (SOL)** | `ANE9Sh9Y2ExSofj9wsR7vkxKKNuawSH9KtpztxEFXs3K` |
+
+---
+
 ## 📄 License | الترخيص
 
 This project is licensed under the **MIT License** - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
