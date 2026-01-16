@@ -1,0 +1,1864 @@
+{
+  "metadata": {
+    "source": "Kashef AI (Smart Policy Engine)",
+    "model": "llama3"
+  },
+  "data": [
+    {
+      "word": "ترامادول_الناري",
+      "type": "STRICT"
+    },
+    {
+      "word": "شباب_الجحيم_الموت",
+      "type": "STRICT"
+    },
+    {
+      "word": "شباب_الجحيم_النار",
+      "type": "STRICT"
+    },
+    {
+      "word": "شباب_الجحيم_الدماء",
+      "type": "STRICT"
+    },
+    {
+      "word": "شباب_الجحيم_المعصومين",
+      "type": "STRICT"
+    },
+    {
+      "word": "شباب_الجحيم_اللادني",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصالي_حقي",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصال",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصاليين",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصالياً",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصالية",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصالات",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصاليون",
+      "type": "STRICT"
+    },
+    {
+      "word": "انفصاليا",
+      "type": "STRICT"
+    },
+    {
+      "word": "شقاء",
+      "type": "STRICT"
+    },
+    {
+      "word": "سحاقو",
+      "type": "STRICT"
+    },
+    {
+      "word": "سحيح",
+      "type": "STRICT"
+    },
+    {
+      "word": "سحاڪ",
+      "type": "STRICT"
+    },
+    {
+      "word": "سخق",
+      "type": "STRICT"
+    },
+    {
+      "word": "المخابراتي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مخبراتنا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الامن الوطنى",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كبروتات",
+      "type": "STRICT"
+    },
+    {
+      "word": "سحاقون",
+      "type": "STRICT"
+    },
+    {
+      "word": "الموساد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "إسرائيل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المسئولين",
+      "type": "STRICT"
+    },
+    {
+      "word": "الارهابيين",
+      "type": "STRICT"
+    },
+    {
+      "word": "مilitants",
+      "type": "STRICT"
+    },
+    {
+      "word": "قزما",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بنتي ليل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النصري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أهبلانة",
+      "type": "STRICT"
+    },
+    {
+      "word": "تهريبية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تهريبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تهريبات",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تهريبة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبناء القمر",
+      "type": "STRICT"
+    },
+    {
+      "word": "قمر اولاد",
+      "type": "STRICT"
+    },
+    {
+      "word": "ابن القمر",
+      "type": "STRICT"
+    },
+    {
+      "word": "اولاد القمر",
+      "type": "STRICT"
+    },
+    {
+      "word": "القمر اولادنا",
+      "type": "STRICT"
+    },
+    {
+      "word": "أبناء القمر_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "هيروين_كيميا",
+      "type": "STRICT"
+    },
+    {
+      "word": "هيروين_مخدر",
+      "type": "STRICT"
+    },
+    {
+      "word": "هيروين_شديد",
+      "type": "STRICT"
+    },
+    {
+      "word": "هيروين_قوي",
+      "type": "STRICT"
+    },
+    {
+      "word": "هيروين_ممنوع",
+      "type": "STRICT"
+    },
+    {
+      "word": "القومية_الدمقراطية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "القومية_الحرية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "القومية_الدينية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "القومية_الناسیونالية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "زنجي_عصبي",
+      "type": "STRICT"
+    },
+    {
+      "word": "زنجي_قبيح",
+      "type": "STRICT"
+    },
+    {
+      "word": "زنجي_مسيح",
+      "type": "STRICT"
+    },
+    {
+      "word": "زنجي_كافر",
+      "type": "STRICT"
+    },
+    {
+      "word": "جحش_كبير",
+      "type": "STRICT"
+    },
+    {
+      "word": "جحش_صغير",
+      "type": "STRICT"
+    },
+    {
+      "word": "إيران_مستقلة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "إيران_دينية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "عربي_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "عربي_حسب",
+      "type": "STRICT"
+    },
+    {
+      "word": "عربي_شديد",
+      "type": "STRICT"
+    },
+    {
+      "word": "دعاء_الأهواء_الدينية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مخدرات_منوعة",
+      "type": "STRICT"
+    },
+    {
+      "word": "متخلف_قبيح",
+      "type": "STRICT"
+    },
+    {
+      "word": "إعدام_ناجح",
+      "type": "STRICT"
+    },
+    {
+      "word": "فحل_سفيه",
+      "type": "STRICT"
+    },
+    {
+      "word": "نصره_لا_له",
+      "type": "STRICT"
+    },
+    {
+      "word": "خلايفة_وأيام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "غبي_من_البلاد",
+      "type": "STRICT"
+    },
+    {
+      "word": "مسدس_للبيع_سريع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قرباطي_عصبي",
+      "type": "STRICT"
+    },
+    {
+      "word": "نصاري_كذب",
+      "type": "STRICT"
+    },
+    {
+      "word": "النظام_الأهوي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الراعي_الجاهل",
+      "type": "STRICT"
+    },
+    {
+      "word": "داعشية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دشيش",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعث",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعشا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "داعشي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ماهر الأسدي",
+      "type": "STRICT"
+    },
+    {
+      "word": "الأسدي",
+      "type": "STRICT"
+    },
+    {
+      "word": "ماهر النار",
+      "type": "STRICT"
+    },
+    {
+      "word": "الموت الأسدي",
+      "type": "STRICT"
+    },
+    {
+      "word": "ماهر الخوف",
+      "type": "STRICT"
+    },
+    {
+      "word": "زهرية",
+      "type": "STRICT"
+    },
+    {
+      "word": "زهرايا",
+      "type": "STRICT"
+    },
+    {
+      "word": "زهريةا",
+      "type": "STRICT"
+    },
+    {
+      "word": "يا ابن الحق",
+      "type": "STRICT"
+    },
+    {
+      "word": "خربش القلب",
+      "type": "STRICT"
+    },
+    {
+      "word": "سني_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "جلوك للشح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مشريك",
+      "type": "STRICT"
+    },
+    {
+      "word": "النظام السوري_لن",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "معاق_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "كابتنا_ش",
+      "type": "STRICT"
+    },
+    {
+      "word": "فلسطين_لن",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "💣_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "كردي_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "كردو",
+      "type": "STRICT"
+    },
+    {
+      "word": "كنزيرو",
+      "type": "STRICT"
+    },
+    {
+      "word": "خنزب",
+      "type": "STRICT"
+    },
+    {
+      "word": "خنزيرك",
+      "type": "STRICT"
+    },
+    {
+      "word": "خنزرة",
+      "type": "STRICT"
+    },
+    {
+      "word": "خنزيرة",
+      "type": "STRICT"
+    },
+    {
+      "word": "صليبيون",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صلب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصليب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصليبية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مجوسي",
+      "type": "STRICT"
+    },
+    {
+      "word": "مجوسية",
+      "type": "STRICT"
+    },
+    {
+      "word": "مجسو",
+      "type": "STRICT"
+    },
+    {
+      "word": "فليق الصدر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصدر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صدرية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصهيونيون",
+      "type": "STRICT"
+    },
+    {
+      "word": "صهيونيا",
+      "type": "STRICT"
+    },
+    {
+      "word": "صهيونيت",
+      "type": "STRICT"
+    },
+    {
+      "word": "YPGي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "YPGية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صاروخا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صاروخة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صاروخيا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نواصبي",
+      "type": "STRICT"
+    },
+    {
+      "word": "نواصبية",
+      "type": "STRICT"
+    },
+    {
+      "word": "موت الأهلية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الأهلي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أهلية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الجولان",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعش فقط",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "HTS سار",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعش خيالية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعارة",
+      "type": "STRICT"
+    },
+    {
+      "word": "دائرة",
+      "type": "STRICT"
+    },
+    {
+      "word": "ديار",
+      "type": "STRICT"
+    },
+    {
+      "word": "داير",
+      "type": "STRICT"
+    },
+    {
+      "word": "دايرا",
+      "type": "STRICT"
+    },
+    {
+      "word": "مستقبل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستقبلي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستقبلية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستقبلين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستقبلنا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قرن",
+      "type": "STRICT"
+    },
+    {
+      "word": "قرنيه",
+      "type": "STRICT"
+    },
+    {
+      "word": "قرني",
+      "type": "STRICT"
+    },
+    {
+      "word": "قرنا",
+      "type": "STRICT"
+    },
+    {
+      "word": "قرونا",
+      "type": "STRICT"
+    },
+    {
+      "word": "مستعمر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستعمري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستعمرين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مستعمرنا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "عبوة",
+      "type": "STRICT"
+    },
+    {
+      "word": "عبويه",
+      "type": "STRICT"
+    },
+    {
+      "word": "عبوين",
+      "type": "STRICT"
+    },
+    {
+      "word": "عبونا",
+      "type": "STRICT"
+    },
+    {
+      "word": "الإسلامية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الإسلاميين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الإسلاميي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "درزي",
+      "type": "STRICT"
+    },
+    {
+      "word": "دريزي",
+      "type": "STRICT"
+    },
+    {
+      "word": "كلب",
+      "type": "STRICT"
+    },
+    {
+      "word": "كلبيه",
+      "type": "STRICT"
+    },
+    {
+      "word": "نحر",
+      "type": "STRICT"
+    },
+    {
+      "word": "نحريه",
+      "type": "STRICT"
+    },
+    {
+      "word": "لعن الله دينك",
+      "type": "STRICT"
+    },
+    {
+      "word": "كريستال ميث",
+      "type": "STRICT"
+    },
+    {
+      "word": "كريستال مية",
+      "type": "STRICT"
+    },
+    {
+      "word": "كريستل ميتا",
+      "type": "STRICT"
+    },
+    {
+      "word": "حيوان",
+      "type": "STRICT"
+    },
+    {
+      "word": "حيوانات",
+      "type": "STRICT"
+    },
+    {
+      "word": "الحيوان",
+      "type": "STRICT"
+    },
+    {
+      "word": "إرهابي_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "مilitant",
+      "type": "STRICT"
+    },
+    {
+      "word": "terrorist_s",
+      "type": "STRICT"
+    },
+    {
+      "word": "إرهابيين",
+      "type": "STRICT"
+    },
+    {
+      "word": "مجاهدين_الإرهاب",
+      "type": "STRICT"
+    },
+    {
+      "word": "برميل_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "barrel_bomb",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مروحة_قذرة",
+      "type": "STRICT"
+    },
+    {
+      "word": "كيس_النار",
+      "type": "STRICT"
+    },
+    {
+      "word": "دولار_ليبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ليرة_ليبية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الاحتلال_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "الإستعمار",
+      "type": "STRICT"
+    },
+    {
+      "word": "النكبة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الدين_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "الملة",
+      "type": "STRICT"
+    },
+    {
+      "word": "الحق",
+      "type": "STRICT"
+    },
+    {
+      "word": "طيز_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "مخدع",
+      "type": "STRICT"
+    },
+    {
+      "word": "سادية",
+      "type": "STRICT"
+    },
+    {
+      "word": "زولام_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "بريتال",
+      "type": "STRICT"
+    },
+    {
+      "word": "شباب_السيف",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "حرس_الإمارة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تداول_فقط",
+      "type": "STRICT"
+    },
+    {
+      "word": "تجارة_النار",
+      "type": "STRICT"
+    },
+    {
+      "word": "يا_ابن_القحبة",
+      "type": "STRICT"
+    },
+    {
+      "word": "قنبلة_للباي",
+      "type": "STRICT"
+    },
+    {
+      "word": "قنبليللباي",
+      "type": "STRICT"
+    },
+    {
+      "word": "مستعملين_قنبلا",
+      "type": "STRICT"
+    },
+    {
+      "word": "قنبله_للبيع",
+      "type": "STRICT"
+    },
+    {
+      "word": "منفذات_القنبلة",
+      "type": "STRICT"
+    },
+    {
+      "word": "القنابل_للباي",
+      "type": "STRICT"
+    },
+    {
+      "word": "قنبلا_للباي",
+      "type": "STRICT"
+    },
+    {
+      "word": "قنبله",
+      "type": "STRICT"
+    },
+    {
+      "word": "البيع_القنبلة",
+      "type": "STRICT"
+    },
+    {
+      "word": "قنابلللبي",
+      "type": "STRICT"
+    },
+    {
+      "word": "صفوي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صفاويين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصفوية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصفويون",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صفويا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصفوى",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصفويين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مرتد",
+      "type": "STRICT"
+    },
+    {
+      "word": "مرتدين",
+      "type": "STRICT"
+    },
+    {
+      "word": "المرتدون",
+      "type": "STRICT"
+    },
+    {
+      "word": "المرتد",
+      "type": "STRICT"
+    },
+    {
+      "word": "مرتدينا",
+      "type": "STRICT"
+    },
+    {
+      "word": "أبونا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبوانا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الأبونين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الابونا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الأبوني",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فيلق_القلب",
+      "type": "STRICT"
+    },
+    {
+      "word": "فيلقالقلب",
+      "type": "STRICT"
+    },
+    {
+      "word": "فيلق_القلوب",
+      "type": "STRICT"
+    },
+    {
+      "word": "فيالق_القرب",
+      "type": "STRICT"
+    },
+    {
+      "word": "ممحونة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ممحيين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الممحونين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ال ممحونه",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الممحيين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المرجعية",
+      "type": "STRICT"
+    },
+    {
+      "word": "مرجعيا",
+      "type": "STRICT"
+    },
+    {
+      "word": "الممرجفية",
+      "type": "STRICT"
+    },
+    {
+      "word": "المرجعين",
+      "type": "STRICT"
+    },
+    {
+      "word": "مرجفية",
+      "type": "STRICT"
+    },
+    {
+      "word": "مطلوب_سلاح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مطلوبة_السلاح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المطلوبين_السلاح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ال مطلوب_السلاح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المطلوبة_السلاحة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب_النجاة",
+      "type": "STRICT"
+    },
+    {
+      "word": "شبان_النجات",
+      "type": "STRICT"
+    },
+    {
+      "word": "الشبابة_النджات",
+      "type": "STRICT"
+    },
+    {
+      "word": "الشباب_النجات",
+      "type": "STRICT"
+    },
+    {
+      "word": "ال شباب_النجاة",
+      "type": "STRICT"
+    },
+    {
+      "word": "الوحدة",
+      "type": "STRICT"
+    },
+    {
+      "word": "وحدة",
+      "type": "STRICT"
+    },
+    {
+      "word": "وحدتين",
+      "type": "STRICT"
+    },
+    {
+      "word": "الوحدات",
+      "type": "STRICT"
+    },
+    {
+      "word": "البقيا",
+      "type": "STRICT"
+    },
+    {
+      "word": "لبقي",
+      "type": "STRICT"
+    },
+    {
+      "word": "ألبقية",
+      "type": "STRICT"
+    },
+    {
+      "word": "لبقيا",
+      "type": "STRICT"
+    },
+    {
+      "word": "البقى",
+      "type": "STRICT"
+    },
+    {
+      "word": "لبقى",
+      "type": "STRICT"
+    },
+    {
+      "word": "ألبقي",
+      "type": "STRICT"
+    },
+    {
+      "word": "لبق",
+      "type": "STRICT"
+    },
+    {
+      "word": "البقا",
+      "type": "STRICT"
+    },
+    {
+      "word": "لبقا",
+      "type": "STRICT"
+    },
+    {
+      "word": "الفرس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت الكرام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "للبيع روسية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت الحزن",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قرود",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت الأهواء",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت العذل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "منيوكة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ترامادول",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قحبة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ذبح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النمرية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نيك",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبناء الحرب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تفجير",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "طريق اليونان",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "جبهة النصرة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبو هلالين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ناس الموت",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب الجحيم",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "انفصالي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شم",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب النار",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الشمرة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قسد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كبتاجون",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب الدير",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "توحد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبناء الشمس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كافر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "سحاق",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المخابرات",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ناس الكفر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبناء النار",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كبتاغون",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أبناء اللاهوت",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت الصراط",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الكرامة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🩸",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "PYD",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المسلمون الأشرار",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "عاهرة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كيماوي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب السكر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شرموطة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ذمي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب الحرب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بيع سلاح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دولار مجمد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🫡",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت التدمير",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "استشهادي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🥷",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قزم",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بنت ليل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النصرة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أهبل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تصفية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نفسناً",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ناس التدمير",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ألله أكبر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت الشك",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "سكس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "انتحاري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت القمر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نفق",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🔻",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ديوث",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تهريب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الحشرة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الجولاني",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🔪",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعاء الشك",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الناس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دبة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شرشوح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "محارم",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🍉",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "هيروين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "القومية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الزنجي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "جحش",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "إيران",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "عربي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعاء الأهواء",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مخدرات",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "متخلف",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "إعدام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فحل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "حسن نصرالله",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الخلايفة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "غبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "💥",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مسدس للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قرباطي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النصاري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النظام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الراعي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "داعش",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ماهر الأسد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت العصبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الحياة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "منغولي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "لكزس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "حشيش",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب الموت",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "سمين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "برغي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كلية للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شبو",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "للبيع كلاشنكوف",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "علوية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "أهلا وسهلا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "موت الكفر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الشرف",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الأميرات",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "يا ابن الحرام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب القلب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "سني",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "جلوك للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مشرك",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النظام السوري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "معاق",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كابتنا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فلسطين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "💣",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "روافض",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قتل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ذخيرة للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بودرة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نوري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🏳️",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الائتلاف",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شيعي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فيل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كردي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "خنزير",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صليبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مجوس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فيلق الصدر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الصهيوني",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "YPG",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "صاروخ",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نواصب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فوركس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بارودة للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "هيئة تحرير الشام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "لم شمل مضمون",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "جواز سفر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بيع كلى",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فطس",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كس امك",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعش",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المستقبل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "المستعمر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "خنازير",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "رافضي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ترمال",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "يا ابن الشرموطة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الدولة الإسلامية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "🏴",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "نصيري",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دعاء الموت",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تحرير الشام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كس اختك",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ماريجوانا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الجيش الوطني",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مفخخة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "PKK",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "حزب الله",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "روسيا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فيلق اللاهوت",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "يورو مجمد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ناس الموتة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "البغدادي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الأسد",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الخونة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "سلاح للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "كرامة الشمر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الجيش الحر",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فيزا مضمونة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "النبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "بيع كلية",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "إرهابي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "برميل",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "دولار ليبي",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الاحتلال",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الدين",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "طيز",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "زولام",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب السيف",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "تداول",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "يا ابن القحبة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "قنبلة للبيع",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "فيلق القلب",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "مطلوب سلاح",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "شباب النجاة",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "ألبقيا",
+      "type": "CONTEXTUAL"
+    },
+    {
+      "word": "الأمة",
+      "type": "CONTEXTUAL"
+    }
+  ]
+}
