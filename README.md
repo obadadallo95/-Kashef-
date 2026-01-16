@@ -1,7 +1,7 @@
 # 🛡️ Kashef | كاشف
 
 <div align="center">
-  <img src="assets/images/logo.png" alt="Kashef Logo" width="120" height="120">
+  <img src="assets/images/logo_kashef.png" alt="Kashef Logo" width="120" height="120">
   <br>
   <h3><b>The AI-Powered Digital Shield for Syrian Content</b></h3>
   <h3><b>درعك الرقمي الذكي لحماية المحتوى السوري</b></h3>
@@ -162,10 +162,9 @@ Security is paramount for Kashef. We have implemented multiple layers of protect
 
 | Home Scanner / فاحص الرئيسية | Real-time Analysis / تحليل فوري | Settings & Privacy / الإعدادات والخصوصية |
 | --- | --- | --- |
-| <img src="assets/screenshots/home.png" alt="Home Screen" width="200"/> | <img src="assets/screenshots/analysis.png" alt="Analysis Result" width="200"/> | <img src="assets/screenshots/settings.png" alt="Settings Screen" width="200"/> |
+| <img src="assets/screenshots/home.jpeg" alt="Home Screen" width="200"/> | <img src="assets/screenshots/analysis.jpeg" alt="Analysis Result" width="200"/> | <img src="assets/screenshots/settings.jpeg" alt="Settings Screen" width="200"/> |
 
-*(Note: Please update the `assets/screenshots/` folder with actual app screenshots.)*
-*(ملاحظة: يرجى تحديث مجلد `assets/screenshots/` بلقطات شاشة حقيقية للتطبيق.)*
+*(Note: Actual app screenshots have been updated.)*
 
 ---
 
