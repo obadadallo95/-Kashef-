@@ -186,6 +186,26 @@ This project is licensed under the **MIT License** - see the [LICENSE](https://w
 
 ---
 
+## 👨‍💻 Meet the Creator | المطور
+
+<div align="center">
+
+<img src="assets/team/obada_dallo.jpg" alt="Obada Dallo" width="150" style="border-radius: 50%; border: 4px solid #0D47A1;">
+
+### **Obada Dallo | عبادة دللو**
+**Founder & Lead Developer**
+*"Building digital shields for a safer internet."*
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/obadadallo95)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/obada-dallo-777a47a9/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/obada.dallo33)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/obada_dallo95)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:obada.dallo95@gmail.com)
+
+</div>
+
+---
+
 <div align="center">
 <p>Made with ❤️ and 🛡️ for a safer digital space.</p>
 <p>صُنع بـ ❤️ و 🛡️ من أجل فضاء رقمي أكثر أماناً.</p>
