@@ -3,14 +3,11 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'package:easy_localization/easy_localization.dart'; // Import easy_localization
+
 class DeveloperCard extends StatelessWidget {
   const DeveloperCard({super.key});
 
-  // Hardcoded Data
-  final String _name = "Obada Dallo";
-  final String _role = "Founder & Lead Developer";
-  final String _bio = "Building digital shields for a safer internet.";
-  
   // Contact Links
   final String _githubUrl = "https://github.com/obadadallo95";
   final String _linkedinUrl = "https://www.linkedin.com/in/obada-dallo-777a47a9/";
@@ -65,18 +62,17 @@ class DeveloperCard extends StatelessWidget {
                 ),
               ],
             ),
-            child: const CircleAvatar(
+            child: CircleAvatar(
               radius: 40,
               backgroundColor: Colors.white24,
-              child: Icon(Icons.person, size: 40, color: Colors.white), 
-              // TODO: Replace with Image.asset('assets/images/obada.jpg') when available
+              backgroundImage: const AssetImage('assets/team/obada_dallo.jpg'),
             ),
           ),
           const SizedBox(height: 16),
           
           // Name & Role
           Text(
-            _name,
+            'developer.name'.tr(),
             style: GoogleFonts.cairo(
               color: Colors.white,
               fontSize: 22,
@@ -84,7 +80,7 @@ class DeveloperCard extends StatelessWidget {
             ),
           ),
           Text(
-            _role,
+            'developer.role'.tr(),
             style: GoogleFonts.cairo(
               color: Colors.white70,
               fontSize: 14,
@@ -97,7 +93,7 @@ class DeveloperCard extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24.0),
             child: Text(
-              _bio,
+              'developer.bio'.tr(),
               textAlign: TextAlign.center,
               style: GoogleFonts.cairo(
                 color: Colors.white60,
@@ -111,7 +107,7 @@ class DeveloperCard extends StatelessWidget {
           
           // Contact Label
           Text(
-            "CONTACT ME",
+            'developer.contact_me'.tr(),
             style: GoogleFonts.cairo(
               color: Colors.white30,
               fontSize: 10,

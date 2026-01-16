@@ -90,5 +90,11 @@
     "title": "Support Kashef",
     "subtitle": "This platform is Free & Open Source.\nYour support keeps the servers running and the code updated.",
     "address_copied": "{} Address Copied! Thank you ❤️"
+  },
+  "developer": {
+    "name": "Obada Dallo",
+    "role": "Founder & Lead Developer",
+    "bio": "Building digital shields for a safer internet.",
+    "contact_me": "CONTACT ME"
   }
 }

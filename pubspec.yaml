@@ -53,6 +53,7 @@ flutter:
     - .env
     - assets/translations/
     - assets/images/
+    - assets/team/
 
 flutter_icons:
   android: "ic_launcher"
@@ -63,9 +64,9 @@ flutter_icons:
 
 flutter_native_splash:
   color: "#0D2E8C"
-  image: "assets/images/SplashScreen.png"
+  image: "assets/images/transparent.png"
   android_12:
-    image: "assets/images/SplashScreen.png"
+    image: "assets/images/transparent.png"
     icon_background_color: "#0D2E8C"
 
 
