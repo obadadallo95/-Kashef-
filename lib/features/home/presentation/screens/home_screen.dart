@@ -29,7 +29,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // استخدام LayoutBuilder لتحديد نوع الجهاز
     return LayoutBuilder(
       builder: (context, constraints) {
         // إذا كانت الشاشة عريضة (ويب/ديسكتوب)
@@ -37,7 +36,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           return const DesktopHomeView();
         } 
         
-        // إذا كانت الشاشة صغيرة (موبايل) - نعيد التصميم القديم كما هو
+        // إذا كانت الشاشة صغيرة (موبايل) - نعيد التصميم القديم
         return Scaffold(
           appBar: AppBar(
             title: const Text('كاشف'),
@@ -56,7 +55,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               ),
             ],
           ),
-          // هنا نستخدم الويدجت المفصول الذي يحتوي على كل المنطق
           body: const ScannerWidget(),
         );
       },
