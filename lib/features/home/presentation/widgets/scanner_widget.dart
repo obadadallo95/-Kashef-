@@ -4,7 +4,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -54,9 +53,9 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         _buildInputCard(context, homeState),
-        SizedBox(height: 24.h),
+        const SizedBox(height: 24),
         _buildAnalyzeButton(context, homeState),
-        SizedBox(height: 32.h),
+        const SizedBox(height: 32),
         _buildSafetyTipsSection(context),
       ],
     );
@@ -66,10 +65,10 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
     return Container(
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
-        borderRadius: BorderRadius.circular(16.r),
+        borderRadius: BorderRadius.circular(16),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.05),
+            color: Colors.black.withOpacity(0.05),
             blurRadius: 15,
             offset: const Offset(0, 5),
           ),
@@ -79,18 +78,18 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: EdgeInsets.all(16.w),
+            padding: const EdgeInsets.all(16),
             child: TextField(
               controller: _textController,
               minLines: 5,
               maxLines: 10,
               onChanged: (value) => ref.read(homeControllerProvider.notifier).updateText(value),
-              style: TextStyle(fontSize: 16.sp, height: 1.5, color: Theme.of(context).textTheme.bodyLarge?.color),
+              style: TextStyle(fontSize: 16, height: 1.5, color: Theme.of(context).textTheme.bodyLarge?.color),
               decoration: InputDecoration(
                 hintText: 'home.input_hint'.tr(),
                 hintStyle: TextStyle(
-                  color: Theme.of(context).hintColor.withValues(alpha: 0.5),
-                  fontSize: 14.sp,
+                  color: Theme.of(context).hintColor.withOpacity(0.5),
+                  fontSize: 14,
                 ),
                 border: InputBorder.none,
                 enabledBorder: InputBorder.none,
@@ -103,10 +102,10 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
           if (state.selectedImage != null)
             _buildImagePreview(context, state.selectedImage!),
             
-          Divider(height: 1, color: Colors.grey.withValues(alpha: 0.1)),
+          Divider(height: 1, color: Colors.grey.withOpacity(0.1)),
           
           Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 12.h),
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
             child: Row(
               children: [
                 _buildActionButton(
@@ -115,7 +114,7 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
                   label: 'home.take_photo'.tr(),
                   onTap: () => _pickImage(ImageSource.camera),
                 ),
-                SizedBox(width: 16.w),
+                const SizedBox(width: 16),
                 _buildActionButton(
                   context, 
                   icon: Icons.image_outlined, 
@@ -132,11 +131,11 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
 
   Widget _buildImagePreview(BuildContext context, File image) {
     return Container(
-      height: 200.h,
+      height: 200,
       width: double.infinity,
-      margin: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(12.r),
+        borderRadius: BorderRadius.circular(12),
         image: DecorationImage(
           image: FileImage(image),
           fit: BoxFit.cover,
@@ -145,17 +144,17 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
       child: Stack(
         children: [
           PositionedDirectional(
-            top: 8.h,
-            end: 8.w,
+            top: 8,
+            end: 8,
             child: GestureDetector(
               onTap: () => ref.read(homeControllerProvider.notifier).removeImage(),
               child: Container(
-                padding: EdgeInsets.all(4.w),
+                padding: const EdgeInsets.all(4),
                 decoration: BoxDecoration(
-                  color: Colors.black.withValues(alpha: 0.6),
+                  color: Colors.black.withOpacity(0.6),
                   shape: BoxShape.circle,
                 ),
-                child: Icon(Icons.close, color: Colors.white, size: 18.sp),
+                child: const Icon(Icons.close, color: Colors.white, size: 18),
               ),
             ),
           ),
@@ -167,19 +166,19 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
   Widget _buildActionButton(BuildContext context, {required IconData icon, required String label, required VoidCallback onTap}) {
     return InkWell(
       onTap: onTap,
-      borderRadius: BorderRadius.circular(8.r),
+      borderRadius: BorderRadius.circular(8),
       child: Padding(
-        padding: EdgeInsets.all(8.w),
+        padding: const EdgeInsets.all(8),
         child: Row(
           children: [
-            Icon(icon, color: Theme.of(context).primaryColor, size: 22.sp),
-            SizedBox(width: 8.w),
+            Icon(icon, color: Theme.of(context).primaryColor, size: 22),
+            const SizedBox(width: 8),
             Text(
               label,
               style: GoogleFonts.cairo(
                 color: Theme.of(context).primaryColor,
                 fontWeight: FontWeight.w600,
-                fontSize: 14.sp,
+                fontSize: 14,
               ),
             ),
           ],
@@ -190,7 +189,7 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
 
   Widget _buildAnalyzeButton(BuildContext context, HomeState state) {
     return SizedBox(
-      height: 56.h,
+      height: 56,
       width: double.infinity,
       child: ElevatedButton(
         onPressed: state.isAnalyzing 
@@ -209,27 +208,27 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
           backgroundColor: Theme.of(context).primaryColor,
           elevation: 4,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16.r),
+            borderRadius: BorderRadius.circular(16),
           ),
-          shadowColor: Theme.of(context).primaryColor.withValues(alpha: 0.4),
+          shadowColor: Theme.of(context).primaryColor.withOpacity(0.4),
         ),
         child: state.isAnalyzing
-            ? SizedBox(
-                height: 24.h,
-                width: 24.h,
-                child: const CircularProgressIndicator(color: Colors.white, strokeWidth: 2),
+            ? const SizedBox(
+                height: 24,
+                width: 24,
+                child: CircularProgressIndicator(color: Colors.white, strokeWidth: 2),
               )
             : Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.shield_outlined, color: Colors.white, size: 24.sp),
-                  SizedBox(width: 8.w),
+                  const Icon(Icons.shield_outlined, color: Colors.white, size: 24),
+                  const SizedBox(width: 8),
                   Text(
                     'home.analyze_btn'.tr(),
                     style: GoogleFonts.cairo(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
-                      fontSize: 16.sp,
+                      fontSize: 16,
                     ),
                   ),
                 ],
@@ -247,28 +246,28 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 color: Theme.of(context).primaryColor,
                 fontWeight: FontWeight.bold,
-                fontSize: 18.sp,
+                fontSize: 18,
               ),
         ),
-        SizedBox(height: 12.h),
+        const SizedBox(height: 12),
         Container(
           width: double.infinity,
-          padding: EdgeInsets.all(16.w),
+          padding: const EdgeInsets.all(16),
           decoration: BoxDecoration(
-            color: Theme.of(context).primaryColor.withValues(alpha: 0.08),
-            borderRadius: BorderRadius.circular(12.r),
-            border: Border.all(color: Theme.of(context).primaryColor.withValues(alpha: 0.1)),
+            color: Theme.of(context).primaryColor.withOpacity(0.08),
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(color: Theme.of(context).primaryColor.withOpacity(0.1)),
           ),
           child: Row(
             children: [
-              Icon(Icons.lightbulb_outline, color: Theme.of(context).primaryColor, size: 28.sp),
-              SizedBox(width: 12.w),
+              Icon(Icons.lightbulb_outline, color: Theme.of(context).primaryColor, size: 28),
+              const SizedBox(width: 12),
               Expanded(
                 child: Text(
                   'home.tip_example'.tr(),
                   style: TextStyle(
                     color: Theme.of(context).brightness == Brightness.dark ? Colors.blue[200] : const Color(0xFF1565C0),
-                    fontSize: 14.sp,
+                    fontSize: 14,
                     height: 1.4,
                   ),
                 ),
@@ -292,9 +291,9 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
       builder: (context) => Container(
         decoration: BoxDecoration(
           color: Theme.of(context).scaffoldBackgroundColor,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(24.r)),
+          borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
         ),
-        padding: EdgeInsets.symmetric(horizontal: 24.w, vertical: 16.h),
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 16),
         child: DraggableScrollableSheet(
           initialChildSize: 0.7,
           minChildSize: 0.5,
@@ -306,15 +305,15 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
               children: [
                 Center(
                   child: Container(
-                    height: 5.h,
-                    width: 48.w,
+                    height: 5,
+                    width: 48,
                     decoration: BoxDecoration(
                       color: Colors.grey[300],
-                      borderRadius: BorderRadius.circular(2.5.r),
+                      borderRadius: BorderRadius.circular(2.5),
                     ),
                   ),
                 ),
-                SizedBox(height: 24.h),
+                const SizedBox(height: 24),
                 Text(
                   'نتائج تحليل المحتوى',
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
@@ -323,40 +322,40 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
                   ),
                   textAlign: TextAlign.center,
                 ),
-                SizedBox(height: 32.h),
+                const SizedBox(height: 32),
                 _buildScoreOverview(context, result),
-                SizedBox(height: 32.h),
+                const SizedBox(height: 32),
                 _buildSectionTitle(context, 'المخاطر المكتشفة', Icons.warning_amber_rounded),
-                SizedBox(height: 12.h),
+                const SizedBox(height: 12),
                 ...result.reasons.map((r) => _buildDetailCard(context, r, isWarning: true)),
                 if (result.reasons.isEmpty)
                    _buildDetailCard(context, 'لم يتم العثور على مخاطر واضحة.', isWarning: false),
                 
                 if (result.saferAlternative != null && result.saferAlternative!.isNotEmpty) ...[
-                  SizedBox(height: 24.h),
+                  const SizedBox(height: 24),
                   _buildSectionTitle(context, '✨ اقتراح آمن (النسخة المنقحة)', Icons.auto_awesome),
-                  SizedBox(height: 12.h),
+                  const SizedBox(height: 12),
                   Container(
                     width: double.infinity,
-                    padding: EdgeInsets.all(16.w),
+                    padding: const EdgeInsets.all(16),
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         colors: [
-                          Theme.of(context).primaryColor.withValues(alpha: 0.1),
-                          Theme.of(context).primaryColor.withValues(alpha: 0.05),
+                          Theme.of(context).primaryColor.withOpacity(0.1),
+                          Theme.of(context).primaryColor.withOpacity(0.05),
                         ],
                       ),
-                      borderRadius: BorderRadius.circular(12.r),
-                      border: Border.all(color: Theme.of(context).primaryColor.withValues(alpha: 0.3)),
+                      borderRadius: BorderRadius.circular(12),
+                      border: Border.all(color: Theme.of(context).primaryColor.withOpacity(0.3)),
                     ),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           result.saferAlternative!,
-                          style: GoogleFonts.cairo(fontSize: 15.sp, height: 1.6, fontWeight: FontWeight.w600),
+                          style: GoogleFonts.cairo(fontSize: 15, height: 1.6, fontWeight: FontWeight.w600),
                         ),
-                        SizedBox(height: 12.h),
+                        const SizedBox(height: 12),
                         Align(
                           alignment: AlignmentDirectional.centerEnd,
                           child: ElevatedButton.icon(
@@ -367,11 +366,11 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
                               );
                               Navigator.pop(context); // Close dialog
                             },
-                            icon: Icon(Icons.copy, size: 16.sp, color: Colors.white),
+                            icon: const Icon(Icons.copy, size: 16, color: Colors.white),
                             label: Text('نسخ واستخدام', style: GoogleFonts.cairo(color: Colors.white)),
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Theme.of(context).primaryColor,
-                              padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 8.h),
+                              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                               minimumSize: Size.zero,
                               tapTargetSize: MaterialTapTargetSize.shrinkWrap,
                             ),
@@ -382,20 +381,20 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
                   ),
                 ],
 
-                SizedBox(height: 24.h),
+                const SizedBox(height: 24),
                 _buildSectionTitle(context, 'نصائح التحسين', Icons.tips_and_updates_outlined),
-                SizedBox(height: 12.h),
+                const SizedBox(height: 12),
                 ...result.suggestions.map((s) => _buildDetailCard(context, s, isWarning: false)),
                 
-                SizedBox(height: 40.h),
+                const SizedBox(height: 40),
                 SizedBox(
                   width: double.infinity,
-                  height: 50.h,
+                  height: 50,
                   child: ElevatedButton(
                     onPressed: () => Navigator.pop(context),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Theme.of(context).primaryColor,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.r)),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                     ),
                     child: Text(
                       'إغلاق',
@@ -431,41 +430,41 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
     }
 
     return Container(
-      padding: EdgeInsets.all(20.w),
+      padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
-        color: color.withValues(alpha: 0.1),
-        borderRadius: BorderRadius.circular(20.r),
-        border: Border.all(color: color.withValues(alpha: 0.3)),
+        color: color.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color.withOpacity(0.3)),
       ),
       child: Column(
         children: [
-          Icon(icon, size: 60.sp, color: color),
-          SizedBox(height: 16.h),
+          Icon(icon, size: 60, color: color),
+          const SizedBox(height: 16),
           Text(
             label,
             style: GoogleFonts.cairo(
-              fontSize: 24.sp,
+              fontSize: 24,
               fontWeight: FontWeight.bold,
               color: color,
             ),
           ),
-          SizedBox(height: 8.h),
+          const SizedBox(height: 8),
           Text(
             'نسبة الخطر: ${result.score}%',
             style: GoogleFonts.cairo(
-              fontSize: 16.sp,
+              fontSize: 16,
               fontWeight: FontWeight.w600,
               color: Colors.grey[700],
             ),
           ),
-          SizedBox(height: 12.h),
+          const SizedBox(height: 12),
           ClipRRect(
-            borderRadius: BorderRadius.circular(10.r),
+            borderRadius: BorderRadius.circular(10),
             child: LinearProgressIndicator(
               value: result.score / 100,
               color: color,
               backgroundColor: Colors.grey[200],
-              minHeight: 8.h,
+              minHeight: 8,
             ),
           ),
         ],
@@ -476,12 +475,12 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
   Widget _buildSectionTitle(BuildContext context, String title, IconData icon) {
     return Row(
       children: [
-        Icon(icon, color: Theme.of(context).primaryColor, size: 20.sp),
-        SizedBox(width: 8.w),
+        Icon(icon, color: Theme.of(context).primaryColor, size: 20),
+        const SizedBox(width: 8),
         Text(
           title,
           style: GoogleFonts.cairo(
-            fontSize: 18.sp,
+            fontSize: 18,
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -491,14 +490,14 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
 
   Widget _buildDetailCard(BuildContext context, String text, {required bool isWarning}) {
     return Container(
-      margin: EdgeInsets.only(bottom: 12.h),
-      padding: EdgeInsets.all(16.w),
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Theme.of(context).cardColor,
-        borderRadius: BorderRadius.circular(12.r),
+        borderRadius: BorderRadius.circular(12),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.05),
+            color: Colors.black.withOpacity(0.05),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -506,13 +505,13 @@ class _ScannerWidgetState extends ConsumerState<ScannerWidget> {
         border: Border(
            right: BorderSide(
              color: isWarning ? Colors.orange : Colors.blue, 
-             width: 4.w
+             width: 4
            ),
         ),
       ),
       child: Text(
         text,
-        style: GoogleFonts.cairo(fontSize: 14.sp, height: 1.5),
+        style: GoogleFonts.cairo(fontSize: 14, height: 1.5),
       ),
     );
   }
