@@ -73,21 +73,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   ),
                 ],
               ),
-              body: Stack(
-                children: [
-                   const SingleChildScrollView(
-                     child: Padding(
-                       padding: EdgeInsets.all(16.0),
-                       child: ScannerWidget(),
-                     ),
-                   ),
-                   // Floating Support Button
-                   PositionedDirectional(
-                    top: 10.h,
-                    start: 20.w,
-                    child: const SupportButton(),
-                  ),
-                ],
+              floatingActionButton: const Padding(
+                padding: EdgeInsets.only(bottom: 16.0),
+                child: SupportButton(),
+              ),
+              floatingActionButtonLocation: FloatingActionButtonLocation.startFloat,
+              body: const SingleChildScrollView(
+                child: Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: ScannerWidget(),
+                ),
               ),
             ),
           );
