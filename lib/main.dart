@@ -26,7 +26,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
-  await dotenv.load(); // Load environment variables
+  await dotenv.load(fileName: ".env"); // Load environment variables
   
   // lock orientation to portrait
   await SystemChrome.setPreferredOrientations([
@@ -112,6 +112,10 @@ final routerProvider = Provider<GoRouter>((ref) {
             builder: (context, state) => const AboutScreen(),
           ),
         ],
+      ),
+      GoRoute(
+        path: '/privacy-policy',
+        builder: (context, state) => const PrivacyScreen(),
       ),
       GoRoute(
         path: '/onboarding',

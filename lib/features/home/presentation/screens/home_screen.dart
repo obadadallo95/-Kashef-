@@ -7,20 +7,121 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:image_picker/image_picker.dart';
 
-import '../../../analysis/data/repositories/analysis_repository.dart';
-import '../../../../core/services/panic_service.dart';
-import '../../../analysis/data/repositories/analysis_repository.dart';
-import '../../../../core/services/panic_service.dart';
 import '../../../donation/ui/support_button.dart';
-import '../controllers/home_controller.dart';
+import '../widgets/scanner_widget.dart';
+import 'desktop_home_view.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
 
   @override
   ConsumerState<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends ConsumerState<HomeScreen> {
+  DateTime? _lastBackPressTime;
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        if (constraints.maxWidth >= 900) {
+          return const DesktopHomeView();
+        } else {
+          // Mobile View
+          return PopScope(
+            canPop: false,
+            onPopInvokedWithResult: (didPop, result) {
+              if (didPop) return;
+              _handleBackPress();
+            },
+            child: Scaffold(
+              backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+              body: Stack(
+                children: [
+                  NestedScrollView(
+                    headerSliverBuilder: (context, innerBoxIsScrolled) {
+                      return [
+                        SliverAppBar(
+                          expandedHeight: 180.h,
+                          floating: false,
+                          pinned: true,
+                          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+                          elevation: 0,
+                          flexibleSpace: FlexibleSpaceBar(
+                            centerTitle: true,
+                            titlePadding: EdgeInsets.only(bottom: 16.h),
+                            expandedTitleScale: 1.2,
+                            title: Text(
+                              'home.title'.tr(),
+                              style: GoogleFonts.cairo(
+                                color: Theme.of(context).primaryColor,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18.sp,
+                              ),
+                            ),
+                            background: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                 SizedBox(height: 60.h),
+                                 Text(
+                                  'home.subtitle'.tr(),
+                                  style: GoogleFonts.cairo(
+                                    color: Colors.grey[600],
+                                    fontSize: 14.sp,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          actions: [
+                            IconButton(
+                              icon: Icon(Icons.settings, color: Theme.of(context).primaryColor),
+                              onPressed: () => context.push('/settings'),
+                            ),
+                          ],
+                        ),
+                      ];
+                    },
+                    body: SingleChildScrollView(
+                      padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 8.h),
+                      child: const ScannerWidget(),
+                    ),
+                  ),
+                  // Floating Support Button (Top Left/Right based on locale)
+                  PositionedDirectional(
+                    top: 50.h, // Below status bar
+                    start: 20.w,
+                    child: const SupportButton(),
+                  ),
+                ],
+              ),
+            ),
+          );
+        }
+      },
+    );
+  }
+
+  void _handleBackPress() {
+    final now = DateTime.now();
+    if (_lastBackPressTime == null || 
+        now.difference(_lastBackPressTime!) > const Duration(seconds: 2)) {
+      _lastBackPressTime = now;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('اضغط مرة أخرى للخروج', style: GoogleFonts.cairo()),
+          duration: const Duration(seconds: 2),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.r)),
+          margin: EdgeInsets.all(16.w),
+        ),
+      );
+    } else {
+      SystemNavigator.pop();
+    }
+  }
 }
 
 class _HomeScreenState extends ConsumerState<HomeScreen> {
