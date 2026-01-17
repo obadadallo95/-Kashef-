@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../../donation/ui/support_button.dart';
+import '../../../donation/ui/donation_sheet.dart';
 import '../widgets/scanner_widget.dart';
 
 class DesktopHomeView extends StatelessWidget {
@@ -14,9 +14,28 @@ class DesktopHomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      floatingActionButton: const Padding(
-        padding: EdgeInsets.all(24.0),
-        child: SupportButton(),
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.all(24.0),
+        child: FloatingActionButton.extended(
+          onPressed: () {
+            showModalBottomSheet(
+              context: context,
+              isScrollControlled: true,
+              backgroundColor: Colors.transparent,
+              builder: (context) => const DonationBottomSheet(),
+            );
+          },
+          backgroundColor: Colors.amber[700],
+          icon: const Icon(Icons.volunteer_activism, color: Colors.white),
+          label: Text(
+            'ادعم المشروع',
+            style: GoogleFonts.cairo(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 16,
+            ),
+          ),
+        ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.startFloat, // Left side for Arabic
       body: Center(
@@ -68,6 +87,8 @@ class DesktopHomeView extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             _buildNavButton(context, 'الرئيسية', () {}),
+            const SizedBox(width: 24),
+            _buildNavButton(context, 'الإعدادات', () => context.push('/settings')),
             const SizedBox(width: 24),
             _buildNavButton(context, 'عن التطبيق', () => context.push('/settings/about')),
             const SizedBox(width: 24),
@@ -129,8 +150,8 @@ class DesktopHomeView extends StatelessWidget {
                 runSpacing: 16,
                 children: [
                   ElevatedButton.icon(
-                    onPressed: () {}, 
-                    icon: const Icon(Icons.android, color: Colors.white, size: 20),
+                    onPressed: () => _launchUrl('https://github.com/obadadallo95/-Kashef-/releases'), 
+                    icon: const Icon(Icons.download_rounded, color: Colors.white, size: 20),
                     label: Text('حمل التطبيق', style: GoogleFonts.cairo(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Theme.of(context).primaryColor,
