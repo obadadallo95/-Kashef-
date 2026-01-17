@@ -1,0 +1,100 @@
+{
+  "app_title": "Kashef",
+  "home": {
+    "title": "Content Analysis",
+    "subtitle": "Welcome, what do you want to check today?",
+    "input_hint": "What's on your mind? Or paste text here...",
+    "analyze_btn": "Detect Risks",
+    "quick_tips": "Quick Tips",
+    "tip_example": "Avoid using explicit organization names to maintain post safety.",
+    "pick_image": "Add Image",
+    "take_photo": "Take Photo"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "language": "Language",
+    "appearance": "Appearance",
+    "dark_mode": "Dark Mode",
+    "support": "Support",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "about": "About App",
+    "version": "Version",
+    "shield_active": "Shield Active",
+    "privacy_mode": "Privacy Mode: ON"
+  },
+  "auth": {
+    "app_lock": "App Lock",
+    "biometric_desc": "Enable FaceID/Fingerprint protection",
+    "locked_message": "App is locked. Authenticate to continue.",
+    "unlock": "Unlock"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "done": "Done",
+    "next": "Next",
+    "title1": "Analyze Content",
+    "body1": "Ensure your posts are safe using AI analysis.",
+    "title2": "Protection & Privacy",
+    "body2": "Your data never leaves your device. Total security.",
+    "title3": "Avoid Bans",
+    "body3": "Protect your account from restrictions and understand community standards."
+  },
+  "about": {
+    "title": "Kashef: Your Digital Shield",
+    "why_kashef": "Why Kashef?",
+    "why_text": "In today's digital world, words can be both a weapon and a liability. Syrians face daily challenges in expressing themselves; strict laws and random ban algorithms mean one post could ban your account or put you at risk.\n\n\"Kashef\" is not here to restrict you, but to protect you. We believe in your right to express yourself, intelligently. Using advanced AI, we scan your content before you post, alerting you to potential \"traps\" and suggesting safer alternatives to convey your ideas without compromising your safety.",
+    "our_tech": "Our Protection Tech",
+    "tech_local": "Local AI",
+    "tech_local_desc": "Blocks severe risks instantly",
+    "tech_cloud": "Secure Cloud",
+    "tech_cloud_desc": "Analyzes complex political context",
+    "tech_privacy": "Total Privacy",
+    "tech_privacy_desc": "No logs recorded",
+    "footer": "Made with ❤️ and 🛡️ for Syrians",
+    "process": {
+      "journey": "Safe Word Journey",
+      "phone": "Your Phone",
+      "filter": "Local Filter",
+      "cloud": "Smart Scan",
+      "safe": "Safe"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "amnesia_title": "Digital Amnesia",
+    "amnesia_desc": "We strictly apply the \"Amnesia\" principle. Once you close the app, all your text and analysis results are wiped from RAM instantly. We have no database, no archives, and no history logs.",
+    "local_title": "On-Device First",
+    "local_desc": "Severe keywords (vulgar insults, drugs, weapons) are scanned locally on your device without internet. This ensures speed and minimizes data transfer.",
+    "cloud_title": "Secure Cloud Analysis",
+    "cloud_desc": "For complex contexts (political/news), text is encrypted and sent to Groq AI for analysis only, without metadata (no name, no location, no IP). Text is deleted from servers immediately after response.",
+    "tracking_title": "No Tracking",
+    "tracking_desc": "We do not require accounts, location access, or ad IDs. You are completely anonymous to us."
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "alert_title": "Important Notice",
+    "alert_desc": "This app is a technical advisory tool, not a legal guarantee.",
+    "point1_title": "1. Probabilistic Advice",
+    "point1_desc": "Kashef relies on AI, which can make mistakes. A \"Safe\" result is not a 100% legal guarantee, and a \"Risk\" result is a precaution.",
+    "point2_title": "2. User Responsibility",
+    "point2_desc": "You are solely responsible for the content you post. Kashef is only an awareness tool.",
+    "point3_title": "3. Legal Usage",
+    "point3_desc": "Strictly prohibited: Using this app to evade detection for criminal/terrorist content or drug promotion. It is designed to protect civilians, journalists, and peaceful activists.",
+    "point4_title": "4. Updates",
+    "point4_desc": "Social media algorithms change constantly. we try to keep up but cannot guarantee our advice matches the latest Facebook updates instantly.",
+    "acknowledge": "I Read & Understood"
+  },
+  "support": {
+    "title": "Support Kashef",
+    "subtitle": "This platform is Free & Open Source.\nYour support keeps the servers running and the code updated.",
+    "address_copied": "{} Address Copied! Thank you ❤️"
+  },
+  "developer": {
+    "name": "Obada Dallo",
+    "role": "Founder & Lead Developer",
+    "bio": "Building digital shields for a safer internet.",
+    "contact_me": "CONTACT ME"
+  }
+}
