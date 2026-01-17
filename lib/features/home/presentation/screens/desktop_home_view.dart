@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../donation/ui/support_button.dart';
 import '../widgets/scanner_widget.dart';
 
 class DesktopHomeView extends StatelessWidget {
@@ -13,6 +14,11 @@ class DesktopHomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      floatingActionButton: const Padding(
+        padding: EdgeInsets.all(24.0),
+        child: SupportButton(),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.startFloat, // Left side for Arabic
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 1200),

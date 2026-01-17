@@ -142,7 +142,11 @@ class MainApp extends ConsumerWidget {
     final router = ref.watch(routerProvider);
 
     return ScreenUtilInit(
-      designSize: const Size(375, 812),
+      // Use standard mobile size for mobile, and standard desktop size for desktop/web
+      // This prevents .sp from becoming gigantic on large screens
+      designSize: MediaQuery.of(context).size.shortestSide < 600 
+          ? const Size(375, 812) 
+          : const Size(1440, 900),
       minTextAdapt: true,
       splitScreenMode: true,
       builder: (context, child) {
